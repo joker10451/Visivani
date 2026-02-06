@@ -17,7 +17,7 @@ import FAQPage from '@/pages/FAQPage';
 function App() {
   return (
     <HelmetProvider>
-      <Router basename="/Visivani">
+      <Router>
         <ShopProvider>
           <ScrollToTop />
           <div className="min-h-screen bg-amarin-cream">
